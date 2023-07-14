@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/megatm1x/learning/openvino_cpp_mysample_1/openvino_cpp_mysample_1/out/build/x64-Debug/CMakeFiles/openvino_cpp_mysample_1.dir/embed.manifest"

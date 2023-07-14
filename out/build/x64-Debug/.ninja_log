@@ -1,0 +1,23 @@
+# ninja log v5
+1	878	7110373643456789	CMakeFiles/openvino_cpp_mysample_1.dir/openvino_cpp_mysample_1.cpp.obj	56da9dd2861818ec
+883	1944	7110373653759301	openvino_cpp_mysample_1.exe	73d52206a2b73ec7
+5	1852	7110376926014088	CMakeFiles/openvino_cpp_mysample_1.dir/openvino_cpp_mysample_1.cpp.obj	b23a4fa2b1d51bf6
+106	1875	7110376926641547	common/utils/CMakeFiles/ie_samples_utils.dir/src/slog.cpp.obj	3d6d1c2c92c760af
+142	2119	7110376929017617	common/format_reader/CMakeFiles/format_reader.dir/src/MnistUbyte.cpp.obj	657d76da2852d74a
+159	2483	7110376932670277	common/format_reader/CMakeFiles/format_reader.dir/src/bmp.cpp.obj	dcd7af70d8e065cb
+68	2622	7110376933915088	thirdparty/gflags/gflags/CMakeFiles/gflags_nothreads_static.dir/src/windows_port.cc.obj	f2201abf2ff73f2d
+2485	2881	7110376936940920	common/format_reader/CMakeFiles/format_reader.dir/src/opencv_wrapper.cpp.obj	f19659b4e9524903
+51	3178	7110376939616310	thirdparty/gflags/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.obj	1f954e991e2bb2d8
+35	3243	7110376940697922	thirdparty/gflags/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.obj	7f164fc595df60a2
+1878	3964	7110376948024448	common/format_reader/CMakeFiles/format_reader.dir/src/yuv_nv12.cpp.obj	dbcedc3d697b7c24
+1854	4044	7110376948861739	common/format_reader/CMakeFiles/format_reader.dir/src/format_reader.cpp.obj	81020d3b7a01d6fa
+21	4057	7110376948934677	thirdparty/gflags/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.obj	fdcd1353b60eafa4
+2121	4196	7110376950388009	common/format_reader/CMakeFiles/format_reader.dir/src/npy.cpp.obj	671696babde7849a
+4058	4315	7110376951489863	intel64/gflags_nothreads_static_debug.lib	38fdf7cac6ae4d04
+4198	4414	7110376952512427	intel64/format_reader.lib	a1c1b13a2e79cab5
+124	5759	7110376966048805	common/utils/CMakeFiles/ie_samples_utils.dir/src/latency_metrics.cpp.obj	8b01d520ce463c6b
+87	6177	7110376970072116	common/utils/CMakeFiles/ie_samples_utils.dir/src/args_helper.cpp.obj	54c658a097fad383
+6178	6397	7110376971968154	intel64/ie_samples_utils.lib	f1e4f5e8bf65e46a
+6398	7073	7110376978150046	intel64/openvino_cpp_mysample_1.exe	f014dac4b5fe3f3
+6	3902	7110379347333156	CMakeFiles/openvino_cpp_mysample_1.dir/openvino_cpp_mysample_1.cpp.obj	b23a4fa2b1d51bf6
+3904	4837	7110379355349395	intel64/openvino_cpp_mysample_1.exe	f014dac4b5fe3f3

@@ -1,0 +1,188 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "thirdparty/gflags",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "thirdparty/gflags"
+				},
+				{
+					"build" : "thirdparty/gflags/gflags",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "thirdparty/gflags/gflags",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "common",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common"
+				},
+				{
+					"build" : "common/utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "common/utils",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "common/format_reader",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "common/format_reader",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5
+					],
+					"name" : "Samples",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "format_reader::@f35c578d0d4d34e3e89e",
+					"jsonFile" : "target-format_reader-Debug-7089fde1fddc0aa336f2.json",
+					"name" : "format_reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gflags_nothreads_static::@6776c1851116df207193",
+					"jsonFile" : "target-gflags_nothreads_static-Debug-bfbe26b0d15159c628ca.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ie_samples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ie_samples-Debug-872458730c49e9f96882.json",
+					"name" : "ie_samples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ie_samples_utils::@431da9e308b4a6ddefb8",
+					"jsonFile" : "target-ie_samples_utils-Debug-18a80e115201bee7bffb.json",
+					"name" : "ie_samples_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openvino_cpp_mysample_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openvino_cpp_mysample_1-Debug-8ce42148b96e9109a3c3.json",
+					"name" : "openvino_cpp_mysample_1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/megatm1x/learning/openvino_cpp_mysample_1/openvino_cpp_mysample_1/out/build/x64-Debug",
+		"source" : "C:/Users/megatm1x/learning/openvino_cpp_mysample_1/openvino_cpp_mysample_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
